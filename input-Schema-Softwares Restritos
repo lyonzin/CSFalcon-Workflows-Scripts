@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "FilePath": {
+      "type": "string"
+    },
+    "ImageFileName": {
+      "type": "string"
+    },
+    "Username": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "FilePath",
+    "ImageFileName",
+    "Username"
+  ],
+  "type": "object"
+}
